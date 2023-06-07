@@ -58,7 +58,7 @@ function subirVolumen(){
     canal = 7;
   }else{
     canal = canal + 1;
-    document.getElementById("nivelVolumenMax").textContent = canal;
+    document.getElementById("CanalSiguiente").textContent = canal;
     imprimir();
   }
   
@@ -68,7 +68,7 @@ function canalAnterior(){
     canal = 7;
   }else{
     canal = canal - 1;
-    document.getElementById("nivelVolumenMax").textContent = canal;
+    document.getElementById("CanalAnterior").textContent = canal;
     imprimir();
   }
  }
